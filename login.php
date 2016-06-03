@@ -22,15 +22,15 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="#">
-                        Start Bootstrap
+                   <a href="intelligentcontainer/">
+                        Inicio
                     </a>
                 </li>
                 <li>
                     <a href="login.php">LogIn</a>
                 </li>
                 <li>
-                    <a href="busqueda.php">Shortcuts</a>
+                <a href="twocolumn1.html">Busqueda</a>
                 </li>
                 <li>
                     <a href="#">Overview</a>
@@ -45,7 +45,7 @@
                     <a href="#">Services</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                  <a href="contacto.html">Contacto</a>
                 </li>
             </ul>
         </div>
