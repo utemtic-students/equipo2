@@ -28,7 +28,7 @@
                     <a href="logout.php">Logout</a>
                 </li>
                 <li>
-                    <a href="#">Shortcuts</a>
+                    <a href="">Shortcuts</a>
                 </li>
                 <li>
                     <a href="#">Overview</a>
@@ -62,6 +62,7 @@
             </div>
         </div>
         <!-- /#page-content-wrapper -->
+        <a href="php/logout.php"><span class="btn btn-primary"></span>Cerrar Ses&iacute;on</a>
 
     </div>
     <!-- /#wrapper -->

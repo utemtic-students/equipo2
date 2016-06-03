@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+<?php include("sesion.php");?> 
     <title>InteligentContainer</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
-                        Start Bootstrap
+                        Inteligent Container
                     </a>
                 </li>
                 <li>
@@ -64,6 +64,28 @@
             </div>
         </div>
         <!-- /#page-content-wrapper -->
+<section id="content">
+ <form class="form-horizontal" name='login' method="POST" action="sesion.php">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Usuario</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="usu" id="inputEmail3" placeholder="Usuario">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3"  class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" name="pass"  class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Log in</button>
+    </div>
+     <input id="bandera" name="bandera" type="hidden" value="1">
+  </div>
+ </form>     
+</section>
 
     </div>
     <!-- /#wrapper -->

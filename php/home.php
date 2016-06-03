@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -27,10 +25,10 @@
                     </a>
                 </li>
                 <li>
-                    <a href="login.php">LogIn</a>
+                    <a href="logout.php">Logout</a>
                 </li>
                 <li>
-                    <a href="busqueda.php">Busqueda</a>
+                    <a href="#">Shortcuts</a>
                 </li>
                 <li>
                     <a href="#">Overview</a>
@@ -64,6 +62,7 @@
             </div>
         </div>
         <!-- /#page-content-wrapper -->
+        <a href="logout.php"><span class="btn btn-primary"></span>Cerrar Ses&iacute;on</a>
 
     </div>
     <!-- /#wrapper -->
