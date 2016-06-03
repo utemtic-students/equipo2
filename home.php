@@ -20,15 +20,15 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="#">
-                        Start Bootstrap
+                    <a href="/">
+                        Inicio
                     </a>
                 </li>
                 <li>
                     <a href="logout.php">Logout</a>
                 </li>
-                <li>
-                    <a href="#">Shortcuts</a>
+                 <li>
+                    <a href="twocolumn1.html">Busqueda</a>
                 </li>
                 <li>
                     <a href="#">Overview</a>
@@ -43,7 +43,7 @@
                     <a href="#">Services</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="contacto.html">Contact</a>
                 </li>
             </ul>
         </div>
