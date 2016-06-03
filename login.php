@@ -30,7 +30,7 @@
                     <a href="login.php">LogIn</a>
                 </li>
                 <li>
-                    <a href="#">Shortcuts</a>
+                    <a href="busqueda.php">Shortcuts</a>
                 </li>
                 <li>
                     <a href="#">Overview</a>
