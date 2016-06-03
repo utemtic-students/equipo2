@@ -41,8 +41,8 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="#">
-                        Start Bootstrap
+                    <a href="/">
+                        Inicio
                     </a>
                 </li>
                 <li>
@@ -58,13 +58,10 @@
                     <a href="#">Events</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
                     <a href="#">Services</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="contacto.html">Contact</a>
                 </li>
             </ul>
         </div>
