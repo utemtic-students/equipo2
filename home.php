@@ -62,7 +62,6 @@
             </div>
         </div>
         <!-- /#page-content-wrapper -->
-        <a href="logout.php"><span class="btn btn-primary"></span>Cerrar Ses&iacute;on</a>
 
     </div>
     <!-- /#wrapper -->
