@@ -21,7 +21,7 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <li class="sidebar-brand">
-                    <a href="intelligentcontainer/">
+                    <a href="./">
                         Inicio
                     </a>
                 </li>
