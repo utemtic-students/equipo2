@@ -4,21 +4,20 @@ body
 	font-family: 'Poiret One', cursive;
 }
 
-.tic{
-    font-family: 'Lobster Two', cursive;
-    color: #EBE9AB;
-}
-
-
 h1,h2,h3,h4,h5,h6
 {
 	font-family: 'Lobster Two', cursive;
+	color:#A9E94A;
+}
+.tic{
+font-family: 'Lobster Two', cursive;
+	color:#EBE9AB;
 }
 
 /* Nav ----------*/
 .main-title
 {
-	color: #640013 !important;
+	color: orange !important;
 	font-size: 26px;
 }
 
@@ -74,7 +73,7 @@ padding: 10px;
 font-size: 1em;
 }
 .white-panel h1 a {
-color: #A92733;
+color: #DDD3D4;
 }
 .white-panel:hover {
 box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
@@ -107,7 +106,10 @@ transition: all 0.3s ease-in-out;
 	margin-bottom: 30px;
 	padding: 1em;
 }
-
+.let{
+	font-family: 'Lobster Two', cursive;
+	color: #000000;
+}
 .table-cart img
 {
 	width: 50px;
