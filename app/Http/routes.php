@@ -113,6 +113,9 @@ Route::get('payment/status', array(
 
 
 // ADMIN -------------
+Route::get('admini', function(){
+		return view('admin.home');
+	});
 
 Route::group(['namespace' => 'Admin', 'middleware' => ['auth'], 'prefix' => 'admin'], function()
 {

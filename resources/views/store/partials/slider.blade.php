@@ -2,34 +2,33 @@
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#slider" data-slide-to="0" class="active"></li>
-    <li data-target="#slider" data-slide-to="1"></li>
-    <li data-target="#slider" data-slide-to="2"></li>
-    <li data-target="#slider" data-slide-to="3"></li>
+    <li data-target="#slider" data-slide-to="1" class="active"></li>
+    <li data-target="#slider" data-slide-to="2" class="active"></li>
+    <li data-target="#slider" data-slide-to="3" class="active"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="{{sddet('image/InteligentContainerPasto.jpg')}}" alt="slide1">
+        <img src="{{ asset('image/InteligentContainerPasto.jpg')}}" alt="slide1">
         <div class="carousel-caption">
           Slide 1
         </div>
       </div>
       <div class="item">
-        <img src="{{sddet('image/10DeDescuento.jpg')}}" alt="slide2">
+        <img src="{{ asset('image/10DeDescuento.jpg')}}" alt="slide2">
         <div class="carousel-caption">
           Slide 2
         </div>
       </div>
       <div class="item">
-        <img src="{{sddet('image/IntelligentcontainerDesenfocado.jpg')}}" alt="slide3">
+        <img src="{{ asset('image/IntelligentcontainerDesenfocado.jpg')}}" alt="slide3">
         <div class="carousel-caption">
           Slide 3
         </div>
       </div>
-      
-        <div class="item">
-        <img src="{{sddet('image/IntelligentcontainerDesenfocado2.jpg')}}" alt="slide3">
+      <div class="item">
+        <img src="{{ asset('image/IntelligentcontainerDesenfocado2.jpg')}}" alt="slide4">
         <div class="carousel-caption">
           Slide 4
         </div>
